@@ -1,10 +1,11 @@
 #include<stdio.h>
-void printHello();
+void printHello();//function prototype
 int main()
 {
-     printHello();
+     printHello();//function call
     return 0;
 }
+//function defination
 void printHello(){
     printf("hello\n");
     printf("hello world");

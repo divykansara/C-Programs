@@ -1,13 +1,13 @@
 #include<stdio.h>
-int converttemp(float celsius);
+float converttemp(float celsius);
 int main()
 {
-    float far=converttemp(5);
+    float far=converttemp(32);
     printf("the temp is : %f",far);
     
     return 0;
 }
-int converttemp(float celsius){
-   float far= celsius * (9/5)+32;
+float converttemp(float celsius){
+   float far= celsius * (9.0/5.0)+32;
    return far;
 }
